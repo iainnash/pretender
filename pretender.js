@@ -1,6 +1,6 @@
 (function(window){
 
-var isNode = typeof process !== 'undefined' && process.toString() === '[object process]';
+var isNode = typeof process !== 'undefined';
 var RouteRecognizer = isNode ? require('route-recognizer') : window.RouteRecognizer;
 var FakeXMLHttpRequest = isNode ? require('fake-xml-http-request') : window.FakeXMLHttpRequest;
 var slice = [].slice;
