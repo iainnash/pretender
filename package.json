@@ -3,7 +3,6 @@
   "version": "0.6.0",
   "main": "./pretender.js",
   "scripts": {
-    "postinstall": "bower install",
     "test": "./node_modules/karma/bin/karma start"
   },
   "repository": {
